@@ -1,0 +1,420 @@
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+body{
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.650),rgba(0, 0, 0, 0.679)), url(im.jpg);
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    width: 80px;
+}
+header{
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav h1{
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.nav p{
+    width: 40%;
+    margin: 20px 0;
+   
+}
+.menu {
+    color: white;
+    text-decoration: none;
+}
+.vert{
+    background-color: #009b86;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+}
+.burguer {
+    width: 25px;
+    fill: #3fafa6e5;
+    display:none;
+}
+
+UL{
+   
+    align-items: center;
+}
+
+ul a {
+    font-size: 20px;
+}
+.nav-item{
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 100px;
+
+}
+.para p{
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.button{
+    text-align: center;
+    margin-top: 100px;
+}
+.button button{
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.but{
+    background-color: #fc9c00;
+    color: white;
+}
+.but1{
+    background-color: white;
+    color: #69aca5;
+    margin-bottom: 10px;
+
+}
+.dropdown-menu{
+    background-color: #69aca5;
+    
+}
+.dropdown-item{
+    color: white;
+
+}
+
+.dropdown a {
+    font-size: 20px;
+
+}
+
+
+
+
+@media (max-width:1350px) {
+
+    .logo{
+        width: 60px;
+    }
+    nav .dropdown a {
+        font-size: 12px;
+    }
+    nav.dropdown{
+        display: flex;
+        align-items: center;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    .nav p{
+        width: 70%;
+        margin: 20px 0;
+    }
+    .vert{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .nav h1{
+        font-size: 30px;
+    }
+    
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .burguer{
+        display:flex;
+    }
+
+}
+
+@media (max-width:900px ) {
+    
+    .nav h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        display: none
+    }
+
+    .nav p {
+        width: 90%;
+        margin: 20px 0;
+       }
+
+    .button{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .burguer{
+        display: flex;
+    }
+       
+}
+@media screen and (max-whidth:950px){
+    nav{
+        display:none;
+    }
+    nav.active{
+        background-color: orangered;
+        position: absolute;
+        display: flex;
+        top: 8%;
+        right: 4%;
+        flex-direction: column;
+        width: 70%;
+        padding: 3%;
+    }
+    .nav h1{
+        font-size: 30px;
+
+    }
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .burguer{
+        display: flex;
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.header {
+   
+    /* height: 10vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.logo{
+    width: 120px;
+}
+
+.header_content {
+
+    justify-content: center;
+    height: 90px;
+    padding: 10px;
+
+}
+.header_content 
+
+.header_content .button {
+  
+  align-items: center;
+  gap: 5px;
+}
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.449)) ,url(im.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding:0 10%;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu {
+    color: white;
+    text-decoration: none;
+}
+.vert{
+    background-color: #009b86;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+}
+.nav-item{
+    color: WHITE;
+}
+
+
+header h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+   justify-content: center;
+    
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button button{
+    border: none;
+    padding: 10px;
+}
+.but{
+    background-color: #fc9c00;
+    color: white;
+}
+.but1{
+    background-color: white;
+    color: #69aca5;
+   
+
+}
+.dropdown-menu{
+    background-color: #69aca5;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown a {
+    font-size: 20px;
+}
+.burguer{
+    width: 25px;
+    fill: #3fafa6e5;
+    display: none;
+}
+@media (max-width :1350px) {
+    .logo{
+        width: 60px;
+
+    }
+    nav .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    nav .a{
+        font-size: 12px;
+
+    }
+    .nav p{
+        width: 70%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .button{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width :400px) {
+    
+    
+
+    nav .a{
+        font-size: 30px;
+
+    }
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .burguer{
+        display: flex;
+    }
+}
+
+@media (max-width :950px) {
+    nav{
+        display: none;
+    }
+    nav.active {
+        background-color:  orangered;
+        position: absolute;
+        display: flex;
+        top: 8%;
+        right: 4%;
+        flex-direction: column;
+        width: 70% ;
+        padding: 3%;
+    }
+    
+    .nav h1{
+        font-size: 30px;
+
+    }
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .burguer{
+        display: flex;
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
